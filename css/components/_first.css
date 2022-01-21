@@ -5,4 +5,54 @@
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+	color: var(--white-color);
+	padding-top: 233px;
+}
+
+.first__link {
+	background-color:rgba(28, 46, 61, 0.4);
+	font-family: SFProDisplay;
+	font-size: 11px;
+	letter-spacing: 2px;
+	padding: 15px 30px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	-ms-border-radius: 100px;
+	-o-border-radius: 100px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-bottom: 42px;
+}
+
+.first__title {
+	font-weight: 700;
+  font-size: 80px;
+  line-height: 84px;
+	max-width: 40%;
+	margin-bottom: 40px;
+}
+
+.first__descr {
+	font-family: 'SFCompact', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+  line-height: 16px;
+	max-width: 32%;
+	margin-bottom: 59px;
+}
+
+.first__btn {
+	font-weight: 800;
+	font-size: 12px;
+	letter-spacing: 2.18182px;
+	padding: 33px 80px;
+	background-color: var(--accent-color);
+	text-transform: uppercase;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	color: var(--white-color);
 }
