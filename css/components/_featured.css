@@ -3,4 +3,18 @@
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+	height: 1080px;
+	position: relative;
+}
+
+.featured__stories {
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	width: 35.3%;
+	background-color:  rgba(60, 74, 81, 0.94);
+}
+
+.featured__article {
 }
