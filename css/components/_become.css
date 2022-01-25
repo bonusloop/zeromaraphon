@@ -1,6 +1,7 @@
 .become {
 	background-color: #fff;
 	padding-top: 150px;
+	padding-bottom: 120px;
 }
 
 .become__title {
@@ -24,6 +25,7 @@
 	-o-border-radius: 4px;
 	position: relative;
 	font-size: 0;
+	margin-bottom: 2%;
 }
 
 .become__item:nth-child(4n) {
@@ -65,10 +67,20 @@
 	top: 0;
 	bottom: 0;
 	background: var(--neptune-color);
-	opacity: 0.9;
+	opacity: 0;
 	transition: opacity 0.3s ease-in-out;
 }
 
 .become__item:hover::before {
-	
+	opacity: 0.9;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.become__item:hover .become__text {
+	transform: translateY(0);
+	transition: transform 0.3s ease-in-out;
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-ms-transform: translateY(0);
+	-o-transform: translateY(0);
 }
