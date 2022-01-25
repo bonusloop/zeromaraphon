@@ -49,18 +49,9 @@
 }
 
 .first__btn {
-	font-weight: 800;
-	font-size: 12px;
-	letter-spacing: 2.18182px;
-	padding: 33px 80px;
+	position: relative;
+  z-index: 5;
 	background-color: var(--accent-color);
-	text-transform: uppercase;
-	border-radius: 8px;
-	-webkit-border-radius: 8px;
-	-moz-border-radius: 8px;
-	-ms-border-radius: 8px;
-	-o-border-radius: 8px;
-	color: var(--white-color);
 }
 
 .first__bottom {
