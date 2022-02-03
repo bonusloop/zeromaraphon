@@ -1,5 +1,6 @@
 .insp {
 	padding-top: 95px;
+	padding-bottom: 50px;
 }
 
 .insp__heading {
@@ -74,6 +75,19 @@
 	font-size: 32px;
   color: var(--white-color);
 	margin-bottom: 25px;
+	line-height: 40px;
+}
+
+.insp__play {
+	background-image: url("/img/insp/avatar/play.svg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 65px;
+	height: 64px;
+	position: absolute;
+	left: 40px;
+	top: 40px;
 }
 
 .insp__people {
