@@ -69,6 +69,20 @@
 .blog-article__link {
 	background-color:var(--neptune-color);
 	display: inline-block;
+	transition: background-color 0.3s;
+	-webkit-transition: background-color 0.3s;
+	-moz-transition: background-color 0.3s;
+	-ms-transition: background-color 0.3s;
+	-o-transition: background-color 0.3s;
+}
+
+.blog-article__link:hover {
+	background-color: var(--neptune-hover-color);
+	transition: background-color 0.3s;
+	-webkit-transition: background-color 0.3s;
+	-moz-transition: background-color 0.3s;
+	-ms-transition: background-color 0.3s;
+	-o-transition: background-color 0.3s;
 }
 
 .featured__title {
